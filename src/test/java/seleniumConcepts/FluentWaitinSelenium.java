@@ -13,6 +13,6 @@ public class FluentWaitinSelenium {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://google.com");
 		FluentWait<WebDriver> wait=new FluentWait<WebDriver>(driver);
-		wait.withTimeout(30, TimeUnit.SECONDS);
+
 	}
 }

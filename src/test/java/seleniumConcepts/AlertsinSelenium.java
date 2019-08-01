@@ -4,6 +4,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 
 public class AlertsinSelenium {
 	public static void main(String args[]) {
@@ -25,6 +26,9 @@ public class AlertsinSelenium {
 		driver.findElement(By.xpath("//input[@name='confirmation']")).click();
 		
 	driver.switchTo().alert().sendKeys("Sample Text");
+	
+	
+	
 
 	}
 

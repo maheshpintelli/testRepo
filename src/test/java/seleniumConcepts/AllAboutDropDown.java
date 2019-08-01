@@ -83,7 +83,7 @@ public class AllAboutDropDown {
 		for (WebElement alloptions:allSelectedOp) {
 			System.out.println("All Selected OPtions = "+alloptions.getText());
 		}
-		WebElement firstSelectedOp=sel.getFirstSelectedOption();
+		WebElement firstSelectedOp=sel.getFirstSelectedOption()
 		System.out.println("First Selected Item= "+firstSelectedOp.getText());
 		sel.deselectAll();
 		

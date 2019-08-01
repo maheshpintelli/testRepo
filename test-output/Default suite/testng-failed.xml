@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumConcepts.AssertionExample">
+      <class name="crossBrowserTesting.MultiBrowser">
         <methods>
-          <include name="hardAssert"/>
-          <include name="softAssertion"/>
+          <include name="openBrowsers"/>
+          <include name="openURL"/>
         </methods>
-      </class> <!-- seleniumConcepts.AssertionExample -->
+      </class> <!-- crossBrowserTesting.MultiBrowser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
